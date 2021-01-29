@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9DmiUCbGEeunaeYVqJhlVw" name="winery">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_9Jfu8CbGEeunaeYVqJhlVw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kudG8CbHEeunaeYVqJhlVw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ugrhcCc0EeunaeYVqJhlVw" name="Employee"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5AtKoCc0EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_XFkscCc1EeunaeYVqJhlVw" name="Winery E-Commerce" useCase="_a2FJoCc1EeunaeYVqJhlVw _nSiDQCc1EeunaeYVqJhlVw _-dnCwCc1EeunaeYVqJhlVw _LBgBICc2EeunaeYVqJhlVw _kNg9oCc2EeunaeYVqJhlVw _p5H1kCc2EeunaeYVqJhlVw _ASFmMCc4EeunaeYVqJhlVw _qQ2HICc4EeunaeYVqJhlVw _sCwdcEODEeuY9rTujILCdA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_a2FJoCc1EeunaeYVqJhlVw" name="Search Wine" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nSiDQCc1EeunaeYVqJhlVw" name="Buy wine" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-dnCwCc1EeunaeYVqJhlVw" name="Authentication" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_LBgBICc2EeunaeYVqJhlVw" name="Request Notification" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_kNg9oCc2EeunaeYVqJhlVw" name="Add Bottle in stock " subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_p5H1kCc2EeunaeYVqJhlVw" name="Add new wine type" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ASFmMCc4EeunaeYVqJhlVw" name="register New" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qQ2HICc4EeunaeYVqJhlVw" name="Ship Wine" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_sCwdcEODEeuY9rTujILCdA" name="check customer,stock,employee and order" subject="_XFkscCc1EeunaeYVqJhlVw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VbihoCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZvHPoCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eDAtwCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gLjHkCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kPp2MCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_op6bACc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xgqZQCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zwXyECc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4dxVUCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9M-2cCc3EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EVDFUCc4EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_H4R7gCc4EeunaeYVqJhlVw" name=" "/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4zDMUCc4EeunaeYVqJhlVw"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vzL3kEOCEeuY9rTujILCdA" name="Admin"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6rDZAEOCEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DibCUEODEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MO97sEODEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PJsAYEODEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SCXdsEODEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UJ2HkEODEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YXRxUEODEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yJnuAEODEeuY9rTujILCdA"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_KQ2acEOJEeu1P7bZTb9K1w" name="my Pc">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_WG8esEOJEeu1P7bZTb9K1w" name="Application"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_fjKhgEOJEeu1P7bZTb9K1w" name="Database">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_icFPYEOJEeu1P7bZTb9K1w" name="Sqlite Database"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="601.0" prefWidth="920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+  <children>
+    <MenuBar prefHeight="34.0" prefWidth="850.0" VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="About us">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About Winery" onAction="#About"/>
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Admin Page">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Admin" onAction="#AdminPage"/>
+               </items></Menu>
+            <Menu mnemonicParsing="false" text="Employee Page">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Employee" onAction="#EmployeePage" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Users Action">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="Register" onAction="#RegisterClicked"/>
+            <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Log out" onAction="#LogoutClicked"/>
+              </items>
+            </Menu>
+      </menus>
+    </MenuBar>
+      <FlowPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TableView prefHeight="566.0" prefWidth="918.0" fx:id="wineryShowcase" />
+         </children></FlowPane>
+  </children>
+</VBox>

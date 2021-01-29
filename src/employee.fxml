@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeController">
+  <tabs>
+    <Tab text="Stock">
+         <content>
+            <TableView prefHeight="200.0" prefWidth="200.0" fx:id="stockTable">
+            </TableView>
+         </content></Tab>
+    <Tab text="New Wine">
+         <content>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Insert New Wine" textAlignment="CENTER" wrappingWidth="301.22900390625" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="152.0" text="Name :" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextField fx:id="nameWineField" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="152.0" text="Year :" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="yearWineField" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="158.0" text="Wine Producer :" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="wineProducerField" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <TextField fx:id="vineTypeField" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="158.0" text="Vine Type :" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="158.0" text="Technical Note :" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField fx:id="technicalNoteField" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button mnemonicParsing="false" onAction="#submitWine" prefHeight="27.0" prefWidth="137.0" text="Insert" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="158.0" text="quantity :" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <TextField fx:id="quantityField" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+               </children>
+            </GridPane>
+         </content></Tab>
+      <Tab text="Close">
+         <content>
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
+               <center>
+                  <Button alignment="CENTER" mnemonicParsing="false" onAction="#closeEmployee" prefHeight="27.0" prefWidth="107.0" text="close" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

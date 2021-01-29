@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="About Winery" textAlignment="CENTER" wrappingWidth="603.22900390625">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut euismod erat, non volutpat magna. Nunc semper, eros in rhoncus consequat, purus lacus suscipit leo, sit amet tristique mi lacus eu diam. Pellentesque urna augue, viverra sit amet erat sed, viverra sagittis nunc. Quisque vitae orci vel diam facilisis viverra. Proin tempor id eros in tempus. Curabitur eu dolor sed turpis interdum facilisis. Duis tempor, dolor id semper porttitor, dolor odio scelerisque augue, non tempor ante mi sed dui. Mauris quis tellus elit. Praesent orci mi, porta vel urna vel, ultrices hendrerit nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus aliquet mollis est ac aliquam." textAlignment="CENTER" wrappingWidth="598.22900390625" />
+      <Separator prefHeight="18.0" prefWidth="600.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Aenean sed commodo tortor, at consectetur ante. Mauris commodo ipsum sit amet eros finibus, ac vulputate quam aliquam. Vivamus vehicula enim eget mi dictum tincidunt. Phasellus et arcu quis libero vestibulum finibus. Aliquam sed sagittis ante. Aliquam egestas id mauris et tincidunt. Duis ut lacus ut leo fringilla ultrices. Quisque posuere imperdiet tortor non feugiat. Ut vulputate nec ligula vitae lobortis." textAlignment="CENTER" wrappingWidth="596.22900390625" />
+      <Separator prefHeight="24.0" prefWidth="600.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Aliquam sit amet lectus at ipsum pharetra pellentesque a quis augue. Nullam massa urna, semper vitae mauris in, ultrices consequat ligula. In magna nulla, egestas tempor nisi nec, auctor lobortis justo. Quisque fringilla euismod mi vel facilisis. Fusce ultricies mollis accumsan. Praesent sollicitudin mi eu ipsum venenatis, ut condimentum mi scelerisque. Duis fringilla justo ante, quis accumsan eros molestie id. Proin ac dignissim est, ut ultricies libero. Suspendisse potenti. Quisque mi tortor, efficitur non iaculis eu, euismod id magna. Praesent pharetra malesuada consequat. Suspendisse venenatis rutrum arcu quis viverra. Sed condimentum mauris eget mi ultrices aliquam. Morbi lobortis accumsan efficitur." textAlignment="CENTER" wrappingWidth="588.22900390625" />
+   </children>
+</VBox>
